@@ -1,7 +1,7 @@
 # mongoengine-dataclasses
-Convert MongoEngine documents to and from Data Classes
 The library provides API for syncing MongoEngine document classes and Data Classes.
-This can be useful if you are using Data Class instances in your application and want to isolate MongoEngine classes to the data access layer only.
+
+This can be useful if you are keeping MongoEngine references isolated in the data access layer and using Data Class instances with a similar structure throughout your application.
 
 ## Simple Example
 
